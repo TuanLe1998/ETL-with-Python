@@ -1,0 +1,9 @@
+CREATE DATABASE ETLDemo
+
+DROP TABLE IF EXISTS Expenses
+
+CREATE TABLE Expenses
+(
+	day DATE,
+	rate DECIMAL(6,5)
+)
